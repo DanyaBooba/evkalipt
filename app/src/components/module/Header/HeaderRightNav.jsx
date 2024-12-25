@@ -14,7 +14,7 @@ const MobileMenu = ({ list, mainLink }) => {
             <IconButton onClick={toggleDrawer(true)}>
                 <MenuIcon />
             </IconButton>
-            <Drawer anchor="right" open={open} onClose={toggleDrawer(false)} variant="plain">
+            <Drawer anchor="right" open={open} onClose={toggleDrawer(false)} variant="soft" color="success">
                 <Box
                     sx={{
                         display: 'flex',
