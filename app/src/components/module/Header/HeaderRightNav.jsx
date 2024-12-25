@@ -69,7 +69,7 @@ const MobileMenu = ({ list, mainLink }) => {
 }
 
 const DesktopMenu = ({ list, mainLink }) => (
-    <Stack direction="row" spacing={2}>
+    <Stack direction="row" spacing="10px">
         <ButtonGroup
             color="success"
             sx={{
