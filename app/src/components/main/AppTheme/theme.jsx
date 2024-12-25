@@ -11,7 +11,8 @@ export const theme = extendTheme({
                     body: '#f1fff7',
                 },
                 header: {
-                    backgroundColor: 'rgba(241, 255, 247, .5)'
+                    backgroundColor: 'rgba(241, 255, 247, .5)',
+                    borderBottomColor: '#d8eade',
                 }
             },
         },
@@ -23,7 +24,8 @@ export const theme = extendTheme({
                     popup: '#142735'
                 },
                 header: {
-                    backgroundColor: 'rgba(15, 36, 24, .5)'
+                    backgroundColor: 'rgba(15, 36, 24, .5)',
+                    borderBottomColor: '#204731',
                 }
             },
         },

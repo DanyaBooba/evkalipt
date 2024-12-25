@@ -2,9 +2,11 @@ import { Container } from "@mui/joy";
 
 import { Header } from '../../components/module/Header/Header'
 import { Footer } from '../../components/module/Footer/Footer'
+import { PageTitle } from '../../components/main/PageTitle/PageTitle'
 
 export const PageIndex = () => (
     <>
+        {PageTitle()}
         <Header />
         <Container className="containerTop">
             <div>
