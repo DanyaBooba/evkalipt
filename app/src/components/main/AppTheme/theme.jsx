@@ -11,8 +11,12 @@ export const theme = extendTheme({
                     body: '#f1fff7',
                 },
                 header: {
-                    backgroundColor: 'rgba(241, 255, 247, .5)',
+                    backgroundColor: 'rgba(231, 255, 241, .5)',
                     borderBottomColor: '#d8eade',
+                    border: '1px solid #a1e8a1',
+                },
+                footer: {
+                    background: 'linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 30%, #e7fdee 100%)'
                 }
             },
         },
@@ -24,8 +28,12 @@ export const theme = extendTheme({
                     popup: '#142735'
                 },
                 header: {
-                    backgroundColor: 'rgba(15, 36, 24, .5)',
+                    backgroundColor: 'rgba(20, 47, 31, .5)',
                     borderBottomColor: '#204731',
+                    border: '1px solid #0a470a',
+                },
+                footer: {
+                    background: 'linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 30%, #173323 100%)'
                 }
             },
         },

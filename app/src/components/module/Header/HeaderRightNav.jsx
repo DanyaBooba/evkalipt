@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Button from '@mui/joy/Button'
 import ButtonGroup from '@mui/joy/ButtonGroup'
 import MenuIcon from '@mui/icons-material/Menu'
+import { activeTheme } from '../../main/AppTheme/theme'
 
 const MobileMenu = ({ list, mainLink }) => {
     const [open, setOpen] = useState(false)
@@ -72,13 +73,25 @@ const DesktopMenu = ({ list, mainLink }) => (
     <Stack direction="row" spacing="10px">
         <ButtonGroup
             color="success"
+            // variant="soft"
             sx={{
+                border: activeTheme().header.border,
                 '--ButtonGroup-radius': '50px',
                 '--ButtonGroup-separatorColor': 'none !important',
             }}
         >
             {list.map((item, index) => (
-                <Button component="a" href={item.link} key={index} sx={{ py: '10px', px: '20px' }}>
+                <Button
+                    component="a"
+                    href={item.link}
+                    key={index}
+                    sx={{
+                        py: '10px',
+                        px: '20px',
+                        border: 'none !important',
+                        borderRadius: '50px !important'
+                    }}
+                >
                     {item.name}
                 </Button>
             ))}
@@ -86,7 +99,7 @@ const DesktopMenu = ({ list, mainLink }) => (
         <Button component="a" href={mainLink.link} color="success" sx={{
             borderRadius: '50px',
             py: '10px',
-            px: '20px'
+            px: '20px',
         }}>
             {mainLink.name}
         </Button>
