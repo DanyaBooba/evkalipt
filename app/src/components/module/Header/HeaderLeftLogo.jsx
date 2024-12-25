@@ -7,7 +7,7 @@ export const HeaderLeftLogo = () => (
     <>
         <Link href="/" underline="none">
             <Stack direction="row" alignItems="center" spacing={1}>
-                <Logo sx={{ width: '40px', height: '40px' }} />
+                <Logo sx={{ width: '43px', height: '43px' }} />
                 <Text level="title">
                     эвкалипт
                 </Text>

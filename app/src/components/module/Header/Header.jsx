@@ -32,6 +32,7 @@ const Toolbar = styled.div`
 `
 
 export const Header = () => {
+    const pathname = window.location.pathname
     const theme = activeTheme()
     const listLinks = [
         {
