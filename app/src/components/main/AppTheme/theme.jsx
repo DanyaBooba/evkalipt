@@ -7,6 +7,10 @@ export const theme = extendTheme({
     colorSchemes: {
         light: {
             palette: {
+                success: {
+                    100: "#c7f7c7",
+                    200: "#a0e8a0",
+                },
                 background: {
                     body: '#f1fff7',
                 },
@@ -22,6 +26,10 @@ export const theme = extendTheme({
         },
         dark: {
             palette: {
+                success: {
+                    700: "#204731",
+                    800: "#053805",
+                },
                 background: {
                     body: '#0f2418',
                     surface: '#12212d',
